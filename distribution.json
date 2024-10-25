@@ -1,0 +1,1281 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "ZZS2eul-1.20.4",
+      "name": "짱슬이서버",
+      "description": "ZZS2eul Running Minecraft 1.20.4 (Fabric v0.15.6)",
+      "icon": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/serverIMG.png",
+      "version": "1.0.0",
+      "address": "ZZS2eul.kro.kr",
+      "minecraftVersion": "1.20.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.15.6",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1321135,
+            "MD5": "744dbc7c568d7e782e6616637a14f6b3",
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/repo/lib/net/fabricmc/fabric-loader/0.15.6/fabric-loader-0.15.6.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.4-fabric-0.15.6",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "793155e397287a88de3a53edaaf2fe8e",
+                "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/repo/versions/1.20.4-fabric-0.15.6/1.20.4-fabric-0.15.6.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1451874,
+                "MD5": "4cc3ff559cafdc70d9ed80e869d447f0",
+                "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/repo/lib/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 608319,
+                "MD5": "3a1cade1634c518db6147c9771686ea9",
+                "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/repo/lib/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.clayborn:accurateblockplacement:1.2.1@jar",
+          "name": "Accurate Block Placement",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 35838,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/accurate-block-placement-1.2.1.jar",
+            "MD5": "394071b453fac847a219a911c3cb9367"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20.3@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1077002,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/appleskin-fabric-mc1.20.3-2.5.1.jar",
+            "MD5": "60e559dd89ef9104af41449158634162"
+          }
+        },
+        {
+          "id": "me.cominixo:betterf3:9.0.2@jar",
+          "name": "BetterF3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1776259,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/BetterF3-9.0.2-Fabric-1.20.4.jar",
+            "MD5": "24fa26b55c158717323b0cb1abe58232"
+          }
+        },
+        {
+          "id": "com.tterrag:blur:3.2.0@jar",
+          "name": "Blur (Fabric)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 155092,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/blur-3.2.0.jar",
+            "MD5": "72dfc9ed13eab2bf1c83ec1e4aa68858"
+          }
+        },
+        {
+          "id": "me.cg360.mod.bridging.entrypoint:bridgingmod:2.4.0+1.20.4@jar",
+          "name": "Bridging Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 60805,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/BridgingMod-2.4.0+1.20.4.fabric-release.jar",
+            "MD5": "36af143b1505d4c4197ed238abbb58b4"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.13.1@jar",
+          "name": "Chat Heads",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 71706,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/chat_heads-0.13.1-fabric-1.20.4.jar",
+            "MD5": "6f89798dd9f306a2efaa12d6cba25787"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0-beta.5+1.20.2@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1009401,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/continuity-3.0.0-beta.5+1.20.2.jar",
+            "MD5": "2b62a19992d9e8cbbe6f2830074cfee3"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.2.6@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 430490,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/entity_model_features_fabric_1.20.4-2.2.6.jar",
+            "MD5": "bf6264415d85ba369ae79ae5f012db95"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.2.5@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 638302,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/entity_texture_features_fabric_1.20.4-6.2.5.jar",
+            "MD5": "d94ee66edea3ecb492b8d41ea3cecc93"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.97.2+1.20.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2187410,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/fabric-api-0.97.2+1.20.4.jar",
+            "MD5": "2733c159c2f7628983a96b442ca3f823"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.10.16+kotlin.1.9.21@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6728096,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/fabric-language-kotlin-1.10.16+kotlin.1.9.21.jar",
+            "MD5": "468854c52847d8c3f2117cb08e14a9ac"
+          }
+        },
+        {
+          "id": "randommcsomethin.fallingleaves:fallingleaves:1.15.6@jar",
+          "name": "Falling Leaves",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 156773,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/fallingleaves-1.15.6+1.20.1.jar",
+            "MD5": "1d13a592b3c329e2bc10b658161e8429"
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.31+mc1.20.4@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105350,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/indium-1.0.31+mc1.20.4.jar",
+            "MD5": "86d20afc613763546f51452ef893be82"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.2+mc1.20.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2703697,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/iris-1.7.2+mc1.20.4.jar",
+            "MD5": "fa3647d1891a719b268c636236d989c2"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:13.3.1@jar",
+          "name": "Jade",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 587222,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/Jade-1.20.4-fabric-13.3.1.jar",
+            "MD5": "05c4597bdd78e0d194d76502c587df24"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.0@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7209750,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/journeymap-1.20.4-5.10.0-fabric.jar",
+            "MD5": "51fd7c0a120638305365e6431bcbf602"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.3.5-1.20.4@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 36420,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/koreanpatch-1.3.5-1.20.4.jar",
+            "MD5": "47e5018c2f6702d67122ae464242461c"
+          }
+        },
+        {
+          "id": "dev.lambdaurora:lambdynlights:2.3.4+1.20.4@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 568669,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/lambdynamiclights-2.3.4+1.20.4.jar",
+            "MD5": "3c849e6337ff7c850762c6cc27f607ab"
+          }
+        },
+        {
+          "id": "com.aizistral:nochatreports:1.20.4-v2.6.1@jar",
+          "name": "No Chat Reports",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 317495,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/NoChatReports-FABRIC-1.20.4-v2.6.1.jar",
+            "MD5": "96fef22842632ff1e758754ef74f8389"
+          }
+        },
+        {
+          "id": "dev.tr7zw:notenoughanimations:1.7.4@jar",
+          "name": "NotEnoughAnimations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 423906,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/notenoughanimations-fabric-1.7.4-mc1.20.4.jar",
+            "MD5": "f7e4960f1d8258ace35fb81a7f45cc11"
+          }
+        },
+        {
+          "id": "com.misterpemodder:shulkerboxtooltip:4.1.0+1.20.4@jar",
+          "name": "Shulker Box Tooltip",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1225846,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/shulkerboxtooltip-fabric-4.1.0+1.20.4.jar",
+            "MD5": "949844eb69788cc29ac62ef1cbadbae3"
+          }
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.6.6@jar",
+          "name": "3d-Skin-Layers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 472639,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/skinlayers3d-fabric-1.6.6-mc1.20.4.jar",
+            "MD5": "f573a794ff4b92edc424d81cb105e88b"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 949085,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/sodium-fabric-0.5.8+mc1.20.4.jar",
+            "MD5": "d7753a50ca37f50abb10465a9a425dac"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.4-2.5.19@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8132399,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/voicechat-fabric-1.20.4-2.5.19.jar",
+            "MD5": "ff6eefd2733b57a2f87e798a92872389"
+          }
+        },
+        {
+          "id": "colorpalette.html",
+          "name": "colorpalette.html",
+          "type": "File",
+          "artifact": {
+            "size": 4503,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/colorpalette.html",
+            "path": "journeymap/colorpalette.html"
+          }
+        },
+        {
+          "id": "colorpalette.json",
+          "name": "colorpalette.json",
+          "type": "File",
+          "artifact": {
+            "size": 190536,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/colorpalette.json",
+            "path": "journeymap/colorpalette.json"
+          }
+        },
+        {
+          "id": "journeymap.core.config",
+          "name": "journeymap.core.config",
+          "type": "File",
+          "artifact": {
+            "size": 1864,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/config/5.10/journeymap.core.config",
+            "path": "journeymap/config/5.10/journeymap.core.config"
+          }
+        },
+        {
+          "id": "journeymap.fullmap.config",
+          "name": "journeymap.fullmap.config",
+          "type": "File",
+          "artifact": {
+            "size": 872,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/config/5.10/journeymap.fullmap.config",
+            "path": "journeymap/config/5.10/journeymap.fullmap.config"
+          }
+        },
+        {
+          "id": "journeymap.minimap.config",
+          "name": "journeymap.minimap.config",
+          "type": "File",
+          "artifact": {
+            "size": 1662,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/config/5.10/journeymap.minimap.config",
+            "path": "journeymap/config/5.10/journeymap.minimap.config"
+          }
+        },
+        {
+          "id": "journeymap.minimap2.config",
+          "name": "journeymap.minimap2.config",
+          "type": "File",
+          "artifact": {
+            "size": 1664,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/config/5.10/journeymap.minimap2.config",
+            "path": "journeymap/config/5.10/journeymap.minimap2.config"
+          }
+        },
+        {
+          "id": "journeymap.topo.config",
+          "name": "journeymap.topo.config",
+          "type": "File",
+          "artifact": {
+            "size": 964,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/config/5.10/journeymap.topo.config",
+            "path": "journeymap/config/5.10/journeymap.topo.config"
+          }
+        },
+        {
+          "id": "journeymap.waypoint.config",
+          "name": "journeymap.waypoint.config",
+          "type": "File",
+          "artifact": {
+            "size": 896,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/config/5.10/journeymap.waypoint.config",
+            "path": "journeymap/config/5.10/journeymap.waypoint.config"
+          }
+        },
+        {
+          "id": "journeymap.webmap.config",
+          "name": "journeymap.webmap.config",
+          "type": "File",
+          "artifact": {
+            "size": 155,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/config/5.10/journeymap.webmap.config",
+            "path": "journeymap/config/5.10/journeymap.webmap.config"
+          }
+        },
+        {
+          "id": "default.theme.config",
+          "name": "default.theme.config",
+          "type": "File",
+          "artifact": {
+            "size": 83,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/default.theme.config",
+            "path": "journeymap/icon/theme/default.theme.config"
+          }
+        },
+        {
+          "id": "htoolbar_begin.png",
+          "name": "htoolbar_begin.png",
+          "type": "File",
+          "artifact": {
+            "size": 148,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/container/htoolbar_begin.png",
+            "path": "journeymap/icon/theme/flat/container/htoolbar_begin.png"
+          }
+        },
+        {
+          "id": "htoolbar_end.png",
+          "name": "htoolbar_end.png",
+          "type": "File",
+          "artifact": {
+            "size": 148,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/container/htoolbar_end.png",
+            "path": "journeymap/icon/theme/flat/container/htoolbar_end.png"
+          }
+        },
+        {
+          "id": "htoolbar_inner.png",
+          "name": "htoolbar_inner.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/container/htoolbar_inner.png",
+            "path": "journeymap/icon/theme/flat/container/htoolbar_inner.png"
+          }
+        },
+        {
+          "id": "vtoolbar_begin.png",
+          "name": "vtoolbar_begin.png",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/container/vtoolbar_begin.png",
+            "path": "journeymap/icon/theme/flat/container/vtoolbar_begin.png"
+          }
+        },
+        {
+          "id": "vtoolbar_end.png",
+          "name": "vtoolbar_end.png",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/container/vtoolbar_end.png",
+            "path": "journeymap/icon/theme/flat/container/vtoolbar_end.png"
+          }
+        },
+        {
+          "id": "vtoolbar_inner.png",
+          "name": "vtoolbar_inner.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/container/vtoolbar_inner.png",
+            "path": "journeymap/icon/theme/flat/container/vtoolbar_inner.png"
+          }
+        },
+        {
+          "id": "flat_button_disabled.png",
+          "name": "flat_button_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/control/flat_button_disabled.png",
+            "path": "journeymap/icon/theme/flat/control/flat_button_disabled.png"
+          }
+        },
+        {
+          "id": "flat_button_hover.png",
+          "name": "flat_button_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/control/flat_button_hover.png",
+            "path": "journeymap/icon/theme/flat/control/flat_button_hover.png"
+          }
+        },
+        {
+          "id": "flat_button_off.png",
+          "name": "flat_button_off.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/control/flat_button_off.png",
+            "path": "journeymap/icon/theme/flat/control/flat_button_off.png"
+          }
+        },
+        {
+          "id": "flat_button_on.png",
+          "name": "flat_button_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/control/flat_button_on.png",
+            "path": "journeymap/icon/theme/flat/control/flat_button_on.png"
+          }
+        },
+        {
+          "id": "flat_toggle_disabled.png",
+          "name": "flat_toggle_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 667,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/control/flat_toggle_disabled.png",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_disabled.png"
+          }
+        },
+        {
+          "id": "flat_toggle_hover.png",
+          "name": "flat_toggle_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 611,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/control/flat_toggle_hover.png",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_hover.png"
+          }
+        },
+        {
+          "id": "flat_toggle_off.png",
+          "name": "flat_toggle_off.png",
+          "type": "File",
+          "artifact": {
+            "size": 667,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/control/flat_toggle_off.png",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_off.png"
+          }
+        },
+        {
+          "id": "flat_toggle_on.png",
+          "name": "flat_toggle_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 611,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/control/flat_toggle_on.png",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_on.png"
+          }
+        },
+        {
+          "id": "DesertTemple.theme2.json",
+          "name": "DesertTemple.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8925,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/DesertTemple.theme2.json",
+            "path": "journeymap/icon/theme/flat/DesertTemple.theme2.json"
+          }
+        },
+        {
+          "id": "EndCity.theme2.json",
+          "name": "EndCity.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8920,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/EndCity.theme2.json",
+            "path": "journeymap/icon/theme/flat/EndCity.theme2.json"
+          }
+        },
+        {
+          "id": "ForestMansion.theme2.json",
+          "name": "ForestMansion.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8926,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/ForestMansion.theme2.json",
+            "path": "journeymap/icon/theme/flat/ForestMansion.theme2.json"
+          }
+        },
+        {
+          "id": "about.png",
+          "name": "about.png",
+          "type": "File",
+          "artifact": {
+            "size": 651,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/about.png",
+            "path": "journeymap/icon/theme/flat/icon/about.png"
+          }
+        },
+        {
+          "id": "actions.png",
+          "name": "actions.png",
+          "type": "File",
+          "artifact": {
+            "size": 1371,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/actions.png",
+            "path": "journeymap/icon/theme/flat/icon/actions.png"
+          }
+        },
+        {
+          "id": "alert.png",
+          "name": "alert.png",
+          "type": "File",
+          "artifact": {
+            "size": 1101,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/alert.png",
+            "path": "journeymap/icon/theme/flat/icon/alert.png"
+          }
+        },
+        {
+          "id": "animals.png",
+          "name": "animals.png",
+          "type": "File",
+          "artifact": {
+            "size": 834,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/animals.png",
+            "path": "journeymap/icon/theme/flat/icon/animals.png"
+          }
+        },
+        {
+          "id": "automap.png",
+          "name": "automap.png",
+          "type": "File",
+          "artifact": {
+            "size": 591,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/automap.png",
+            "path": "journeymap/icon/theme/flat/icon/automap.png"
+          }
+        },
+        {
+          "id": "biome.png",
+          "name": "biome.png",
+          "type": "File",
+          "artifact": {
+            "size": 1029,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/biome.png",
+            "path": "journeymap/icon/theme/flat/icon/biome.png"
+          }
+        },
+        {
+          "id": "browser.png",
+          "name": "browser.png",
+          "type": "File",
+          "artifact": {
+            "size": 1694,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/browser.png",
+            "path": "journeymap/icon/theme/flat/icon/browser.png"
+          }
+        },
+        {
+          "id": "caves.png",
+          "name": "caves.png",
+          "type": "File",
+          "artifact": {
+            "size": 1081,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/caves.png",
+            "path": "journeymap/icon/theme/flat/icon/caves.png"
+          }
+        },
+        {
+          "id": "close.png",
+          "name": "close.png",
+          "type": "File",
+          "artifact": {
+            "size": 1373,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/close.png",
+            "path": "journeymap/icon/theme/flat/icon/close.png"
+          }
+        },
+        {
+          "id": "day.png",
+          "name": "day.png",
+          "type": "File",
+          "artifact": {
+            "size": 1515,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/day.png",
+            "path": "journeymap/icon/theme/flat/icon/day.png"
+          }
+        },
+        {
+          "id": "delete.png",
+          "name": "delete.png",
+          "type": "File",
+          "artifact": {
+            "size": 939,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/delete.png",
+            "path": "journeymap/icon/theme/flat/icon/delete.png"
+          }
+        },
+        {
+          "id": "disable.png",
+          "name": "disable.png",
+          "type": "File",
+          "artifact": {
+            "size": 833,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/disable.png",
+            "path": "journeymap/icon/theme/flat/icon/disable.png"
+          }
+        },
+        {
+          "id": "follow.png",
+          "name": "follow.png",
+          "type": "File",
+          "artifact": {
+            "size": 1274,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/follow.png",
+            "path": "journeymap/icon/theme/flat/icon/follow.png"
+          }
+        },
+        {
+          "id": "grid.png",
+          "name": "grid.png",
+          "type": "File",
+          "artifact": {
+            "size": 514,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/grid.png",
+            "path": "journeymap/icon/theme/flat/icon/grid.png"
+          }
+        },
+        {
+          "id": "keys.png",
+          "name": "keys.png",
+          "type": "File",
+          "artifact": {
+            "size": 456,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/keys.png",
+            "path": "journeymap/icon/theme/flat/icon/keys.png"
+          }
+        },
+        {
+          "id": "layers.png",
+          "name": "layers.png",
+          "type": "File",
+          "artifact": {
+            "size": 1339,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/layers.png",
+            "path": "journeymap/icon/theme/flat/icon/layers.png"
+          }
+        },
+        {
+          "id": "monsters.png",
+          "name": "monsters.png",
+          "type": "File",
+          "artifact": {
+            "size": 482,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/monsters.png",
+            "path": "journeymap/icon/theme/flat/icon/monsters.png"
+          }
+        },
+        {
+          "id": "night.png",
+          "name": "night.png",
+          "type": "File",
+          "artifact": {
+            "size": 1035,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/night.png",
+            "path": "journeymap/icon/theme/flat/icon/night.png"
+          }
+        },
+        {
+          "id": "options.png",
+          "name": "options.png",
+          "type": "File",
+          "artifact": {
+            "size": 644,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/options.png",
+            "path": "journeymap/icon/theme/flat/icon/options.png"
+          }
+        },
+        {
+          "id": "pets.png",
+          "name": "pets.png",
+          "type": "File",
+          "artifact": {
+            "size": 827,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/pets.png",
+            "path": "journeymap/icon/theme/flat/icon/pets.png"
+          }
+        },
+        {
+          "id": "players.png",
+          "name": "players.png",
+          "type": "File",
+          "artifact": {
+            "size": 362,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/players.png",
+            "path": "journeymap/icon/theme/flat/icon/players.png"
+          }
+        },
+        {
+          "id": "reset.png",
+          "name": "reset.png",
+          "type": "File",
+          "artifact": {
+            "size": 659,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/reset.png",
+            "path": "journeymap/icon/theme/flat/icon/reset.png"
+          }
+        },
+        {
+          "id": "savemap.png",
+          "name": "savemap.png",
+          "type": "File",
+          "artifact": {
+            "size": 926,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/savemap.png",
+            "path": "journeymap/icon/theme/flat/icon/savemap.png"
+          }
+        },
+        {
+          "id": "search.png",
+          "name": "search.png",
+          "type": "File",
+          "artifact": {
+            "size": 1168,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/search.png",
+            "path": "journeymap/icon/theme/flat/icon/search.png"
+          }
+        },
+        {
+          "id": "server.png",
+          "name": "server.png",
+          "type": "File",
+          "artifact": {
+            "size": 3038,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/server.png",
+            "path": "journeymap/icon/theme/flat/icon/server.png"
+          }
+        },
+        {
+          "id": "theme.png",
+          "name": "theme.png",
+          "type": "File",
+          "artifact": {
+            "size": 1151,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/theme.png",
+            "path": "journeymap/icon/theme/flat/icon/theme.png"
+          }
+        },
+        {
+          "id": "topo.png",
+          "name": "topo.png",
+          "type": "File",
+          "artifact": {
+            "size": 1330,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/topo.png",
+            "path": "journeymap/icon/theme/flat/icon/topo.png"
+          }
+        },
+        {
+          "id": "villagers.png",
+          "name": "villagers.png",
+          "type": "File",
+          "artifact": {
+            "size": 393,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/villagers.png",
+            "path": "journeymap/icon/theme/flat/icon/villagers.png"
+          }
+        },
+        {
+          "id": "waypoints.png",
+          "name": "waypoints.png",
+          "type": "File",
+          "artifact": {
+            "size": 1606,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/waypoints.png",
+            "path": "journeymap/icon/theme/flat/icon/waypoints.png"
+          }
+        },
+        {
+          "id": "zoomin.png",
+          "name": "zoomin.png",
+          "type": "File",
+          "artifact": {
+            "size": 1305,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/zoomin.png",
+            "path": "journeymap/icon/theme/flat/icon/zoomin.png"
+          }
+        },
+        {
+          "id": "zoomout.png",
+          "name": "zoomout.png",
+          "type": "File",
+          "artifact": {
+            "size": 1241,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/icon/zoomout.png",
+            "path": "journeymap/icon/theme/flat/icon/zoomout.png"
+          }
+        },
+        {
+          "id": "flat_compass_point.png",
+          "name": "flat_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 589,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/flat_compass_point.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_compass_point.png"
+          }
+        },
+        {
+          "id": "flat_mask_256.png",
+          "name": "flat_mask_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 7020,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/flat_mask_256.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_mask_256.png"
+          }
+        },
+        {
+          "id": "flat_mask_512.png",
+          "name": "flat_mask_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 20438,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/flat_mask_512.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_mask_512.png"
+          }
+        },
+        {
+          "id": "flat_rim_256.png",
+          "name": "flat_rim_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 6751,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/flat_rim_256.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_rim_256.png"
+          }
+        },
+        {
+          "id": "flat_rim_512.png",
+          "name": "flat_rim_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 14309,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/flat_rim_512.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_rim_512.png"
+          }
+        },
+        {
+          "id": "pur_compass_point.png",
+          "name": "pur_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 959,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/pur_compass_point.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_compass_point.png"
+          }
+        },
+        {
+          "id": "pur_mask_256.png",
+          "name": "pur_mask_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 2067,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/pur_mask_256.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_mask_256.png"
+          }
+        },
+        {
+          "id": "pur_mask_512.png",
+          "name": "pur_mask_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 10622,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/pur_mask_512.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_mask_512.png"
+          }
+        },
+        {
+          "id": "pur_rim_256.png",
+          "name": "pur_rim_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 15210,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/pur_rim_256.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_rim_256.png"
+          }
+        },
+        {
+          "id": "pur_rim_512.png",
+          "name": "pur_rim_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 37803,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/pur_rim_512.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_rim_512.png"
+          }
+        },
+        {
+          "id": "flat_bottom.png",
+          "name": "flat_bottom.png",
+          "type": "File",
+          "artifact": {
+            "size": 154,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/square/flat_bottom.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_bottom.png"
+          }
+        },
+        {
+          "id": "flat_bottomleft.png",
+          "name": "flat_bottomleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 159,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/square/flat_bottomleft.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_bottomleft.png"
+          }
+        },
+        {
+          "id": "flat_bottomright.png",
+          "name": "flat_bottomright.png",
+          "type": "File",
+          "artifact": {
+            "size": 162,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/square/flat_bottomright.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_bottomright.png"
+          }
+        },
+        {
+          "id": "flat_compass_point.png",
+          "name": "flat_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/square/flat_compass_point.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_compass_point.png"
+          }
+        },
+        {
+          "id": "flat_left.png",
+          "name": "flat_left.png",
+          "type": "File",
+          "artifact": {
+            "size": 152,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/square/flat_left.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_left.png"
+          }
+        },
+        {
+          "id": "flat_right.png",
+          "name": "flat_right.png",
+          "type": "File",
+          "artifact": {
+            "size": 153,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/square/flat_right.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_right.png"
+          }
+        },
+        {
+          "id": "flat_top.png",
+          "name": "flat_top.png",
+          "type": "File",
+          "artifact": {
+            "size": 154,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/square/flat_top.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_top.png"
+          }
+        },
+        {
+          "id": "flat_topleft.png",
+          "name": "flat_topleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 157,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/square/flat_topleft.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_topleft.png"
+          }
+        },
+        {
+          "id": "flat_topright.png",
+          "name": "flat_topright.png",
+          "type": "File",
+          "artifact": {
+            "size": 157,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/square/flat_topright.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_topright.png"
+          }
+        },
+        {
+          "id": "pur_bottom.png",
+          "name": "pur_bottom.png",
+          "type": "File",
+          "artifact": {
+            "size": 164,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/square/pur_bottom.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_bottom.png"
+          }
+        },
+        {
+          "id": "pur_bottomleft.png",
+          "name": "pur_bottomleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 207,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/square/pur_bottomleft.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_bottomleft.png"
+          }
+        },
+        {
+          "id": "pur_bottomright.png",
+          "name": "pur_bottomright.png",
+          "type": "File",
+          "artifact": {
+            "size": 215,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/square/pur_bottomright.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_bottomright.png"
+          }
+        },
+        {
+          "id": "pur_compass_point.png",
+          "name": "pur_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/square/pur_compass_point.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_compass_point.png"
+          }
+        },
+        {
+          "id": "pur_left.png",
+          "name": "pur_left.png",
+          "type": "File",
+          "artifact": {
+            "size": 160,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/square/pur_left.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_left.png"
+          }
+        },
+        {
+          "id": "pur_right.png",
+          "name": "pur_right.png",
+          "type": "File",
+          "artifact": {
+            "size": 163,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/square/pur_right.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_right.png"
+          }
+        },
+        {
+          "id": "pur_top.png",
+          "name": "pur_top.png",
+          "type": "File",
+          "artifact": {
+            "size": 159,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/square/pur_top.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_top.png"
+          }
+        },
+        {
+          "id": "pur_topleft.png",
+          "name": "pur_topleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 205,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/square/pur_topleft.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_topleft.png"
+          }
+        },
+        {
+          "id": "pur_topright.png",
+          "name": "pur_topright.png",
+          "type": "File",
+          "artifact": {
+            "size": 226,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/minimap/square/pur_topright.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_topright.png"
+          }
+        },
+        {
+          "id": "NetherFortress.theme2.json",
+          "name": "NetherFortress.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8927,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/NetherFortress.theme2.json",
+            "path": "journeymap/icon/theme/flat/NetherFortress.theme2.json"
+          }
+        },
+        {
+          "id": "OceanMonument.theme2.json",
+          "name": "OceanMonument.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8926,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/OceanMonument.theme2.json",
+            "path": "journeymap/icon/theme/flat/OceanMonument.theme2.json"
+          }
+        },
+        {
+          "id": "Purist.theme2.json",
+          "name": "Purist.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8907,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/Purist.theme2.json",
+            "path": "journeymap/icon/theme/flat/Purist.theme2.json"
+          }
+        },
+        {
+          "id": "Stronghold.theme2.json",
+          "name": "Stronghold.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8923,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/icon/theme/flat/Stronghold.theme2.json",
+            "path": "journeymap/icon/theme/flat/Stronghold.theme2.json"
+          }
+        },
+        {
+          "id": "journeymap.log",
+          "name": "journeymap.log",
+          "type": "File",
+          "artifact": {
+            "size": 41749,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/journeymap/journeymap.log",
+            "path": "journeymap/journeymap.log"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5506,
+            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/options.txt",
+            "path": "options.txt"
+          }
+        }
+      ]
+    }
+  ]
+}
