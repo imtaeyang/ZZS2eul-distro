@@ -12,7 +12,7 @@
       "name": "짱슬이서버",
       "description": "ZZS2eul Running Minecraft 1.20.4 (Fabric v0.15.6)",
       "icon": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/serverIMG.png",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "address": "ZZS2eul.kro.kr",
       "minecraftVersion": "1.20.4",
       "discord": {
@@ -333,16 +333,6 @@
             "size": 472639,
             "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/skinlayers3d-fabric-1.6.6-mc1.20.4.jar",
             "MD5": "f573a794ff4b92edc424d81cb105e88b"
-          }
-        },
-        {
-          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4@jar",
-          "name": "Sodium",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 949085,
-            "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/fabricmods/required/sodium-fabric-0.5.8+mc1.20.4.jar",
-            "MD5": "d7753a50ca37f50abb10465a9a425dac"
           }
         },
         {
