@@ -12,7 +12,7 @@
       "name": "짱슬이서버",
       "description": "ZZS2eul Running Minecraft 1.20.4 (Fabric v0.15.6)",
       "icon": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/serverIMG.png",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "ZZS2eul.kro.kr",
       "minecraftVersion": "1.20.4",
       "discord": {
@@ -1274,7 +1274,18 @@
             "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/options.txt",
             "path": "options.txt"
           }
-        }
+        },
+        {
+			"id": "BSL_v8.2.09.zip",
+			"name": "BSL_v8.2.09.zip",
+			"type": "File",
+			"artifact": {
+			  "size": 954784,
+			  "url": "https://raw.githubusercontent.com/imtaeyang/ZZS2eul-distro/main/servers/ZZS2eul-1.20.4/files/shaderpacks/BSL_v8.2.09.zip",
+			  "MD5": "4443556b4e0d63394f0df1297e484454",
+			  "path": "shaderpacks/BSL_v8.2.09.zip"
+			}
+		  }
       ]
     }
   ]
